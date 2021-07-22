@@ -1,0 +1,1 @@
+<button plain type="primary" bindtap="getUserProfile">点击授权</button>

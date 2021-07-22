@@ -1,0 +1,32 @@
+Page {
+  background-color: #e9e7e7;
+  padding: 20rpx;
+}
+.search_row {
+  height: 90rpx;
+  display: flex;
+}
+.search_row input {
+  background-color: #fff;
+  flex: 1;
+  height: 100%;
+  border-radius: 15rpx;
+  padding-left: 10rpx;
+}
+.search_row button {
+  width: 80rpx;
+  height: 100%;
+}
+.search_content {
+  margin-top: 30rpx;
+}
+.search_content .search_item {
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 20rpx;
+  font-size: 28rpx;
+  color: #666;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

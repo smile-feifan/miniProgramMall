@@ -1,0 +1,64 @@
+Page {
+  background-color: rgb(241, 235, 235);
+}
+
+.collect_main {
+
+
+  .collect_title {
+    margin: 20rpx;
+    padding: 30rpx 0;
+
+
+    .active {
+      color: var(--themeColor);
+      border: 1rpx solid currentColor;
+    }
+
+    .collect_tips {
+      margin-right: 40rpx;
+      border: 1rpx solid #ccc;
+      padding: 15rpx;
+      background-color: #fff;
+    }
+  }
+
+  .collect_content {
+
+    .goods_item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #fff;
+      margin: 20rpx 10rpx;
+
+
+      .goods_img_wrap {
+        flex: 2;
+
+        image {
+          width: 70%;
+        }
+      }
+
+      .goods_info_wrap {
+        flex: 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .goods_name {
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+        }
+
+        .goods_price {
+          color: var(--themeColor);
+          font-size: 38rpx;
+        }
+      }
+    }
+  }
+}

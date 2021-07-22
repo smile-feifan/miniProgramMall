@@ -1,0 +1,147 @@
+Page {
+  background-color: #edece8;
+}
+
+.user_info_warp {
+  height: 45vh;
+  background-color: var(--themeColor);
+  overflow: hidden;
+  position: relative;
+
+  .user_img_wrap {
+    position: relative;
+
+    .user_bg {
+      height: 50vh;
+      filter: blur(13rpx);
+    }
+
+    .user_info {
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      top: 20%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .user_icon {
+        width: 150rpx;
+        height: 150rpx;
+        border-radius: 50%;
+      }
+
+      .user_name {
+        color: white;
+        margin-left: 30rpx;
+        margin-top: 30rpx;
+      }
+    }
+  }
+
+  .user_btn {
+    navigator {}
+  }
+}
+
+.user_content {
+  position: relative;
+
+  .user_main {
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%);
+    top: -40rpx;
+    color: #666;
+    padding-bottom: 100px;
+
+    .history_wrap {
+      background-color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: 1px solid #ccc;
+
+
+      navigator {
+        flex: 1;
+        text-align: center;
+        padding: 10rpx 0;
+
+        .his_num {
+          color: var(--themeColor);
+        }
+
+        .his_name {}
+      }
+    }
+
+    .orders_wrap {
+      background-color: #fff;
+      margin-top: 15rpx;
+
+      .orders_title {
+        border-bottom: 1px solid #ccc;
+        padding: 20rpx;
+      }
+
+      .orders_content {
+        display: flex;
+
+        navigator {
+          flex: 1;
+          text-align: center;
+          padding: 10rpx;
+
+
+          .iconfont {
+            color: var(--themeColor);
+            font-size: 50rpx;
+          }
+
+          .orders_name {}
+        }
+      }
+    }
+
+    .address_wrap {
+      background-color: #fff;
+      margin: 10rpx 0;
+      padding: 20rpx;
+      border-bottom: 1px solid #ccc;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .address_text {}
+
+      .address_go {
+        width: 25rpx;
+        height: 25rpx;
+        border-top: 1rpx solid #666;
+        border-right: 1rpx solid #666;
+        transform: rotate(45deg);
+      }
+    }
+
+    .app_info_item {
+      background-color: #fff;
+      padding: 20rpx;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .app_info_contact {
+      display: flex;
+      justify-content: space-between;
+
+
+    }
+
+    .recommend {
+      background-color: #fff;
+      padding: 20rpx;
+      margin-top: 20rpx;
+    }
+  }
+}

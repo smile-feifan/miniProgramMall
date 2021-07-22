@@ -1,0 +1,26 @@
+/* 引入字体图标  记得在末尾加上分号*/
+@import "./style/iconfont.wxss";
+
+Page{
+  /* 定义一个主题颜色 */
+  --themeColor:#eb4450;
+  /* 
+  定义一个统一的字体大小
+  这里统一使用rpx单位
+  记住：假设设计稿375px
+  1px=2rpx
+  14px=28rpx 
+  */
+  font-size: 28rpx;
+}
+
+/* 对所有属性进行设置  注意：小程序中不支持通配符 '*' */
+page,view,text,swiper,swiper-item,image,navigator {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* 图片宽度与父元素同宽 */
+image{
+  width: 100%;
+}

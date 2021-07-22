@@ -1,0 +1,3 @@
+<view class="login_warp">
+  <button type="primary" plain bindtap="getUserProfile" style="margin-top:40rpx">授权登录</button>
+</view>

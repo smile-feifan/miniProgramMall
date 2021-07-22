@@ -1,0 +1,107 @@
+.address {
+  .user_info_row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #f37983;
+    padding: 20rpx;
+
+    .user_info {}
+
+    .user_phone {}
+  }
+}
+
+.pay_title {
+  font-size: 34rpx;
+  padding: 20rpx;
+  border-bottom: 1px solid var(--themeColor);
+}
+
+.cart_content {
+  .cart_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(190, 185, 185);
+
+
+    .goods_img_wrap {
+      flex: 2;
+
+      image {
+        width: 100%;
+      }
+    }
+
+    .goods_info_wrap {
+      flex: 5;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      color: #666;
+
+      .goods_name {
+        display: -webkit-box;
+        overflow: hidden;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+
+      }
+
+      .goods_price_wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 40rpx;
+        padding: 0 10rpx;
+
+
+        .goods_price {
+          color: var(--themeColor);
+          font-size: 34rpx;
+        }
+
+        .goods_num {}
+      }
+    }
+  }
+}
+
+.tbm_tool {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #fff;
+  height: 90rpx;
+  width: 100%;
+  display: flex;
+  text-align: right;
+  border-bottom: 1px solid #ccc;
+
+  .total_price_wrap {
+    flex: 5;
+
+    .total_price {
+      font-size: 34rpx;
+      font-weight: 600;
+
+      text.total_price_text {
+        color: var(--themeColor);
+        font-size: 34rpx;
+        font-weight: 600;
+      }
+    }
+
+
+  }
+
+  .order_pay_wrap {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--themeColor);
+    color: white;
+    margin-left: 5rpx;
+  }
+}
