@@ -10,7 +10,7 @@ Page({
   onShow(){
    let userInfo= wx.getStorageSync('userInfo')||[];
    let collect= wx.getStorageSync('collect')||[];
-    let collectNum=collect.length;
+   let collectNum=collect.length;
     this.setData({
       userInfo,
       collectNum

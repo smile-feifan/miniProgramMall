@@ -12,7 +12,6 @@ Page({
    */
   data: {
     userInfo:{}
-
   },
 
  async getUserProfile(e)
@@ -40,7 +39,5 @@ Page({
    } catch (error) {
      console.log(error);
    }
-  }
-  
-  
+  } 
 })

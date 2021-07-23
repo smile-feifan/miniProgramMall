@@ -50,9 +50,6 @@ Page({
     // 重新发送请求
     this.getOrders(index+1);
   },
-  onLoad(options){
-    console.log(options);
-  },
   onShow(){
     // 判断缓存值是否存在token值
     const token=wx.getStorageSync('token');
